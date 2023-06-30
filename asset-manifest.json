@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.fb8d883a.css",
-    "main.js": "/static/js/main.08e6f764.js",
+    "main.js": "/static/js/main.6a2831cd.js",
     "static/js/787.064d55b3.chunk.js": "/static/js/787.064d55b3.chunk.js",
     "static/media/gaurav.png": "/static/media/gaurav.f45d542c11ed510bc5b9.png",
     "static/media/Gaurav-Panchal-Resume.pdf": "/static/media/Gaurav-Panchal-Resume.567471eefb720f056df0.pdf",
     "index.html": "/index.html",
     "main.fb8d883a.css.map": "/static/css/main.fb8d883a.css.map",
-    "main.08e6f764.js.map": "/static/js/main.08e6f764.js.map",
+    "main.6a2831cd.js.map": "/static/js/main.6a2831cd.js.map",
     "787.064d55b3.chunk.js.map": "/static/js/787.064d55b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb8d883a.css",
-    "static/js/main.08e6f764.js"
+    "static/js/main.6a2831cd.js"
   ]
 }
