@@ -81,7 +81,7 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink
           onClick={toggle}
           className="menu-item"
-          to="skills"
+          to="#skills"
           smooth={true}
         >
           Skills

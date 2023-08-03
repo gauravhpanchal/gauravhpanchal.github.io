@@ -7,7 +7,7 @@ import {
   TechImg,
   TechName,
   ContactWrapper,
-  Card
+  Card,
 } from "./AboutElements";
 function About() {
   return (
@@ -30,7 +30,7 @@ function About() {
         ></path>
       </svg>
 
-      <ContactWrapper id="about">
+      <ContactWrapper id="about" className="about section">
         <div className="Container">
           <div className="SectionTitle" style={{ "margin-top": "100px" }}>
             About Me
@@ -40,22 +40,21 @@ function About() {
               src="https://contentstatic.techgig.com/photo/88751917.cms"
               alt="man-svgrepo"
             />
-            <div className="AboutBio">
+            <div className="AboutBio" id="user-detail-name">
               {/* <ul> */}
-              <li>
+              <li id="user-detail-name">
                 Hello! My name is <strong>Gaurav Panchal </strong>and I find
                 great joy in crafting digital creations that thrive on the vast
                 landscape of the internet.
               </li>
               <br />
-              <li>
-                I am an enthusiastic Developer equipped with exceptional
-                administrative and communication skills, a keen eye for detail,
-                and the proficiency to develop efficient code utilizing the MERN
-                Stack.
+              <li id="user-detail-intro">
+                My expertise spans across HTML5, CSS3, JavaScript, ReactJs,
+                NodeJs, Express, and I'm well-versed in working with database
+                technologies like MongoDB
               </li>
               <br />
-              <li>
+              <li id="user-detail-intro">
                 Throughout my journey, I have successfully constructed numerous
                 web applications and completed four significant projects. These
                 experiences have not only enhanced my technical prowess but also

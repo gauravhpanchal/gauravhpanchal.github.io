@@ -5,12 +5,16 @@ import { Wrapper } from "./ProjectCard/ProjectCardElements";
 function Projects() {
   return (
     <>
-      
-
-      <Wrapper className="ProjectWrapper" id="projects" style={{ "margin-top": "50px" }}>
+      <Wrapper
+        className="ProjectWrapper"
+        id="projects"
+        style={{ "margin-top": "50px" }}
+      >
         <div className="Container">
-          <div className="SectionTitle" style={{ "margin-bottom": "0.5rem" }}>Projects</div>
-          <ProjectCard />
+          <div className="SectionTitle" style={{ "margin-bottom": "0.5rem" }}>
+            Projects
+          </div>
+          <ProjectCard className="project-card" />
         </div>
       </Wrapper>
     </>

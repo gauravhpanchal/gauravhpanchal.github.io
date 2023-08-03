@@ -4,25 +4,23 @@ import { Link as ScrollLink } from "react-scroll";
 import styled from "styled-components";
 
 export const Nav = styled.div`
-   //border:1px solid red;
-    width:100%;
-   background: black;
-   align-items: center;
-   height: 70px;
-   padding:0px 40px;
-  display:flex;
-  justify-content:space-between;
-  position:fixed;
-  top:0px;
-  left:0px;
-  z-index:100;
- 
+  width: 100%;
+  background: black;
+  align-items: center;
+  height: 70px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
 `;
 
 export const NavLink = styled(ScrollLink)`
   color: rgb(119, 119, 121);
   display: flex;
-  gap:30px;
+  gap: 30px;
   font-size: 1.2rem;
   align-items: center;
   height: 100%;
@@ -32,12 +30,6 @@ export const NavLink = styled(ScrollLink)`
   }
 `;
 export const Logo = styled(LinkRouter)`
-  // img {
-  //   width: 47px;
-  //   height: 47px;
-  //   margin-left: 20px;
-  //   margin-top: 10px;
-  // }
   h1 {
     font-size: 1.8rem;
     color: #fff;
@@ -53,7 +45,6 @@ export const Bars = styled(FaBars)`
   cursor: pointer;
   @media screen and (max-width: 820px) {
     display: block;
-   
   }
 `;
 
@@ -78,5 +69,4 @@ export const NavBtn = styled.nav`
   @media screen and (max-width: 820px) {
     display: none;
   }
-`
-;
+`;

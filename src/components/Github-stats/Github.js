@@ -1,7 +1,7 @@
-import React from 'react'
-import GitHubCalendar from 'react-github-calendar';
-import {Center, Image, SimpleGrid} from "@chakra-ui/react";
-import "./style.css"
+import React from "react";
+import GitHubCalendar from "react-github-calendar";
+import { Center, Image, SimpleGrid } from "@chakra-ui/react";
+import "./style.css";
 export const Github = () => {
   return (
     <div id="Github" className="git">
@@ -15,6 +15,7 @@ export const Github = () => {
         <Center>
           <GitHubCalendar username="gauravhpanchal" />
         </Center>
+
         <SimpleGrid
           w={"90%"}
           margin="auto"
@@ -24,13 +25,25 @@ export const Github = () => {
           marginTop={"40px"}
         >
           <Center>
-            <Image src="https://github-readme-stats.vercel.app/api?username=gauravhpanchal&count_private=true&show_icons=true&theme=radical" />
+            <Image
+              id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=gauravhpanchal&count_private=true&show_icons=true&theme=radical"
+            />
           </Center>
           <Center>
-            <Image src="https://github-readme-streak-stats.herokuapp.com/?user=gauravhpanchal" />
+            <Image
+              id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=gauravhpanchal"
+            />
           </Center>
         </SimpleGrid>
+        <Center mt="30px">
+          <Image
+            id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravhpanchal"
+          />
+        </Center>
       </div>
     </div>
   );
-}
+};

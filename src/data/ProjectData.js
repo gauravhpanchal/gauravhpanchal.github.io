@@ -18,12 +18,12 @@ export const ProjectList = [
     demo_url: "https://haan-website-clone-pt12.netlify.app/",
   },
   {
-    img: "https://i.ibb.co/wcdZjrG/skinstore.png",
-    title: "SkinStore Clone",
-    description: `This is a clone of "skinstore.com" which is an e-commerce website for woman Beauty and fashion products. Worked on Homepage and Product Detail page of website.`,
-    tech_stack: "HTML, CSS, Javascript, ES6",
+    img: "https://i.ibb.co/JskgJ6m/Travel-Agency.png",
+    title: "Travel Agency Website",
+    description: `Developed a Travel Agency Website consisting of four main sections:Services, Blogs, User Login, and Registration.`,
+    tech_stack: "HTML, CSS, Javascript, React, Chakra UI, ",
     github_url: "https://github.com/samarjeetpatankar/SkinStore-clone",
-    demo_url: "https://skinstore-clone-pt12.netlify.app/",
+    demo_url: "https://travel-agency-43wi.vercel.app/",
   },
   {
     img: "https://i.ibb.co/JKLcM1g/hand-Sanitizer.png",
@@ -87,5 +87,4 @@ export const stackList = [
     img: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
     name: "Postman",
   },
-  
 ];

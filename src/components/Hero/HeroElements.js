@@ -4,7 +4,7 @@ import { Link as LinkScroll } from "react-scroll";
  export const HeroContainer = styled.div`
 // border:1px solid orange;
   padding-bottom: 2rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: auto;

@@ -36,18 +36,16 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             {/* <img src="  " alt="gaurav" /> */}
-            <Image src={profile} alt="man-svgrepo" />
+            <Image className="home-img" src={profile} alt="man-svgrepo" />
           </HeroRight>
         </HeroWrapper>
 
-        <NavBtn>
-          <Resume2 />
+        <NavBtn id="resume-button-2 resume-link-2" className="">
+          <Resume2 id="resume-link-2 resume-button-2" />
         </NavBtn>
-        
       </HeroContainer>
     </main>
   );
 }
 
 export default Hero;
-

@@ -3,7 +3,7 @@ import SocialIcon from "../SocialIcon/SocialIcon";
 import { Box1, ContactWrapper, Outer } from "./ContactElements";
 import { HiLocationMarker } from "react-icons/hi";
 import { HiMail } from "react-icons/hi";
-import { FaMobileAlt,FaLinkedin,FaGithub } from "react-icons/fa";
+import { FaMobileAlt, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -14,11 +14,11 @@ function Contact() {
           <Outer>
             <Box1>
               <HiMail />
-              <p>gauravhpanchal@gmail.com</p>
+              <p id="contact-email">gauravhpanchal2@gmail.com</p>
             </Box1>
             <Box1>
               <FaMobileAlt />
-              <p>+91 8779059029</p>
+              <p id="contact-phone">+91 8779059029</p>
             </Box1>
             <Box1>
               <HiLocationMarker />
@@ -27,6 +27,7 @@ function Contact() {
             <Box1 id="linkdin">
               <FaLinkedin />
               <a
+                id="contact-linkedin"
                 href="https://www.linkedin.com/in/gauravh-panchal/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,6 +38,7 @@ function Contact() {
             <Box1 id="github">
               <FaGithub />
               <a
+                id="contact-github"
                 href="https://github.com/gauravhpanchal"
                 target="_blank"
                 rel="noopener noreferrer"

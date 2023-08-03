@@ -5,7 +5,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 const Header = ({ toggle }) => {
   return (
     <Nav id="nav-menu">
-      <Logo to="./">
+      <Logo to="/">
         <h1 className="nav-link home">Gaurav</h1>
       </Logo>
       <NavMenu>
@@ -13,8 +13,9 @@ const Header = ({ toggle }) => {
           About
         </NavLink>
         <NavLink
+          id="skills"
           className="menu-item nav-link skills"
-          to="skills"
+          to="#skills"
           smooth={true}
         >
           Skills
@@ -34,9 +35,14 @@ const Header = ({ toggle }) => {
           Contact
         </NavLink>
       </NavMenu>
-      <NavBtn>
-        <Resume2 nav-link resume />
-      </NavBtn>
+      <div id="resume-button-1">
+        <NavBtn className="nav-link resume">
+          <Resume2
+            className="nav-link resume"
+            id="resume-link-1 resume-button-1"
+          />
+        </NavBtn>
+      </div>
 
       <Bars onClick={toggle} />
     </Nav>
