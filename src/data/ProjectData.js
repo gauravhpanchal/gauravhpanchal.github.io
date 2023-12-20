@@ -17,7 +17,7 @@ export const ProjectList = [
     demo_url: "https://skinstore-clone-pt12.netlify.app/",
   },
   {
-    img: "https://i.ibb.co/JKLcM1g/hand-Sanitizer.png",
+    img: "https://i.ibb.co/cTcfv46/Whats-App-Image-2023-12-20-at-4-41-39-PM.jpg",
     title: "React-Native-Jobs",
     description:
       "Your streamlined path to dream jobs. Effortless search, clean design, and real-time data. Scan the Expo QR code for instant exploration.",
