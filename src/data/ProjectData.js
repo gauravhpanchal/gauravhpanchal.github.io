@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "https://i.ibb.co/JskgJ6m/Travel-Agency.png",
+    title: "Travel Agency Website",
+    description: `Developed a Travel Agency Website consisting of four main sections:Services, Blogs, User Login, and Registration.`,
+    tech_stack: "HTML, CSS, Javascript, React, Chakra UI, ",
+    github_url: "https://github.com/samarjeetpatankar/SkinStore-clone",
+    demo_url: "https://travel-agency-43wi.vercel.app/",
+  },
+  {
     img: "https://i.ibb.co/wcdZjrG/skinstore.png",
     title: "SkinStore Clone",
     description: `This is a clone of "skinstore.com" which is an e-commerce website for woman Beauty and fashion products. Worked on Homepage and Product Detail page of website.`,
@@ -10,21 +18,15 @@ export const ProjectList = [
   },
   {
     img: "https://i.ibb.co/JKLcM1g/hand-Sanitizer.png",
-    title: "HandSanitizer Clone",
+    title: "React-Native-Jobs",
     description:
-      "This is a clone of HAAN Store which is an e-commerce website mainly focused on personal care and branding of the same. Worked on Product Detail page and Checkout page of website.",
-    tech_stack: "HTML, CSS, Javascript, ES6",
-    github_url: "https://github.com/samarjeetpatankar/Hand-Sanitizer-website",
-    demo_url: "https://haan-website-clone-pt12.netlify.app/",
+      "Your streamlined path to dream jobs. Effortless search, clean design, and real-time data. Scan the Expo QR code for instant exploration.",
+    tech_stack: "HTML, CSS, Javascript, React-Native",
+    github_url: "https://github.com/gauravhpanchal/React-Native-Jobs",
+    demo_url:
+      "https://qr.expo.dev/eas-update?updateId=80825bbd-afd1-46f4-8168-65a85874b6ed&appScheme=exp&host=u.expo.dev",
   },
-  {
-    img: "https://i.ibb.co/JskgJ6m/Travel-Agency.png",
-    title: "Travel Agency Website",
-    description: `Developed a Travel Agency Website consisting of four main sections:Services, Blogs, User Login, and Registration.`,
-    tech_stack: "HTML, CSS, Javascript, React, Chakra UI, ",
-    github_url: "https://github.com/samarjeetpatankar/SkinStore-clone",
-    demo_url: "https://travel-agency-43wi.vercel.app/",
-  },
+
   {
     img: "https://i.ibb.co/JKLcM1g/hand-Sanitizer.png",
     title: "HandSanitizer Clone",
